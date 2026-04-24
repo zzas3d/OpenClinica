@@ -30,6 +30,11 @@
 		<!-- Library Versions -->
 		<spring.version>3.2.18.RELEASE</spring.version>
 		<db.test>localhost</db.test>
+
+  		<sonar.organization>zzas3d</sonar.organization>
+		<sonar.projectKey>your_project_key</sonar.projectKey>
+		<sonar.organization>your_org</sonar.organization>
+
 	</properties>
 	<profiles>
 		<profile>
@@ -618,9 +623,5 @@
 			<url>https://dev.openclinica.com/artifactory/libs-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
-<properties>
-  <sonar.organization>zzas3d</sonar.organization>
-	<sonar.projectKey>your_project_key</sonar.projectKey>
-<sonar.organization>your_org</sonar.organization>
-</properties>
+
 </project>
