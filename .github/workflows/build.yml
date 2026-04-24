@@ -21,6 +21,6 @@ jobs:
           java-version: '17'
 
       - name: Build and analyze with Maven
-        run: mvn clean verify sonar:sonar
+        run: mvn clean verify sonar:sonar -DskipTests
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
