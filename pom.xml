@@ -618,5 +618,7 @@
 			<url>https://dev.openclinica.com/artifactory/libs-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
-
+<properties>
+  <sonar.organization>zzas3d</sonar.organization>
+</properties>
 </project>
