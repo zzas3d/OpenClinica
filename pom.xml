@@ -620,5 +620,7 @@
 	</distributionManagement>
 <properties>
   <sonar.organization>zzas3d</sonar.organization>
+	<sonar.projectKey>your_project_key</sonar.projectKey>
+<sonar.organization>your_org</sonar.organization>
 </properties>
 </project>
